@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="estimated_effort" label="Estimated Effort" language="en" table="x_203779_gcs_pm_story">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>estimated_effort</element>
+            <help/>
+            <hint/>
+            <label>Estimated Effort</label>
+            <language>en</language>
+            <name>x_203779_gcs_pm_story</name>
+            <plural>Estimated Efforts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-12 20:33:35</sys_created_on>
+            <sys_id>17d241b50fb013008e970cbce1050e77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Estimated Effort</sys_name>
+            <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+            <sys_update_name>sys_documentation_x_203779_gcs_pm_story_estimated_effort_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-12 20:33:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

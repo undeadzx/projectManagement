@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Story" max_length="40" name="x_203779_gcs_pm_story" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Acceptance Criteria" max_length="1000" name="acceptance_criteria" type="string"/>
+        <element label="Customer Tester" max_length="32" name="customer_tester" reference="sys_user" reference_qual="roles=x_203779_gcs_pm.story_user^EQ" reference_qual_condition="roles=x_203779_gcs_pm.story_user^EQ" type="reference"/>
+        <element label="Estimated Effort" max_length="40" name="estimated_effort" type="integer"/>
+        <element label="GCS Tester" max_length="32" name="gcs_tester" reference="sys_user" reference_qual="roles=x_203779_gcs_pm.story_user^EQ" reference_qual_condition="roles=x_203779_gcs_pm.story_user^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Knowledge Transfer" max_length="1000" name="knowledge_transfer" type="string"/>
+        <element label="Points" max_length="40" name="points" type="integer"/>
+        <element label="Sprint" max_length="32" name="sprint" reference="x_203779_gcs_pm_sprint" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Test Script" max_length="1000" name="test_script" type="string"/>
+        <element label="Theme" max_length="32" name="theme" reference="x_203779_gcs_pm_theme" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new_development" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element label="New Development" sequence="1" value="new_development"/>
+                <element label="Defect" sequence="2" value="defect"/>
+                <element label="Enhancement" sequence="3" value="enhancement"/>
+            </choice>
+        </element>
+    </element>
+</database>

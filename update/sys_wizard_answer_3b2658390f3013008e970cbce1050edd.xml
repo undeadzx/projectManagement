@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Story</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Story</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d5a3aa77b8130300651775b34d8f5119</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-12 17:18:23</sys_created_on>
+        <sys_id>3b2658390f3013008e970cbce1050edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Story</sys_name>
+        <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+        <sys_update_name>sys_wizard_answer_3b2658390f3013008e970cbce1050edd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-12 17:18:23</sys_updated_on>
+        <table/>
+        <target_url>x_203779_gcs_pm_story.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

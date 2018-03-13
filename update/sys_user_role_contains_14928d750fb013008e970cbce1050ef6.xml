@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_203779_gcs_pm.story_user" name="x_203779_gcs_pm.story_user">e72698310f3013008e970cbce1050eba</contains>
+        <role display_value="x_203779_gcs_pm.organizer" name="x_203779_gcs_pm.organizer">a87524750f7013008e970cbce1050ecf</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-12 20:32:17</sys_created_on>
+        <sys_id>14928d750fb013008e970cbce1050ef6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_203779_gcs_pm.story_user.x_203779_gcs_pm.organizer</sys_name>
+        <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+        <sys_update_name>sys_user_role_contains_14928d750fb013008e970cbce1050ef6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-12 20:32:17</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

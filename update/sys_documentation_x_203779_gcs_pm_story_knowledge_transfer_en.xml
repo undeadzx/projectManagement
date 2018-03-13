@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="knowledge_transfer" label="Knowledge Transfer" language="en" table="x_203779_gcs_pm_story">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>knowledge_transfer</element>
+            <help/>
+            <hint/>
+            <label>Knowledge Transfer</label>
+            <language>en</language>
+            <name>x_203779_gcs_pm_story</name>
+            <plural>Knowledge Transfers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-12 21:07:40</sys_created_on>
+            <sys_id>96aa01f90fb013008e970cbce1050ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Knowledge Transfer</sys_name>
+            <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+            <sys_update_name>sys_documentation_x_203779_gcs_pm_story_knowledge_transfer_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-12 21:07:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
