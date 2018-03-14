@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="stakeholders" label="Stakeholders" language="en" table="x_203779_gcs_pm_project">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>stakeholders</element>
+            <help/>
+            <hint/>
+            <label>Stakeholders</label>
+            <language>en</language>
+            <name>x_203779_gcs_pm_project</name>
+            <plural>Stakeholders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 08:09:50</sys_created_on>
+            <sys_id>c0db245a0fb413008e970cbce1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Stakeholders</sys_name>
+            <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+            <sys_update_name>sys_documentation_x_203779_gcs_pm_project_stakeholders_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 08:09:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

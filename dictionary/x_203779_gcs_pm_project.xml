@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Project" max_length="40" name="x_203779_gcs_pm_project" type="collection">
+        <element label="Customer PM" max_length="32" name="customer_pm" reference="sys_user" reference_qual="roles=x_203779_gcs_pm.organizer^EQ" reference_qual_condition="roles=x_203779_gcs_pm.organizer^EQ" type="reference"/>
+        <element label="GCS PM" max_length="32" name="gcs_pm" reference="sys_user" reference_qual="roles=x_203779_gcs_pm.organizer^EQ" reference_qual_condition="roles=x_203779_gcs_pm.organizer^EQ" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project Sponsor" max_length="32" name="project_sponsor" reference="sys_user" type="reference"/>
+        <element label="Stakeholders" max_length="4000" name="stakeholders" reference="sys_user" type="glide_list"/>
+        <index name="index">
+            <element name="project_sponsor"/>
+        </index>
+        <index name="index2">
+            <element name="customer_pm"/>
+        </index>
+        <index name="index3">
+            <element name="gcs_pm"/>
+        </index>
     </element>
 </database>

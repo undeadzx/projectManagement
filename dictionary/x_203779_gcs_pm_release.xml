@@ -2,5 +2,10 @@
 <database>
     <element label="Release" max_length="40" name="x_203779_gcs_pm_release" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_203779_gcs_pm_project" type="reference"/>
+        <element label="Release Date" max_length="40" name="release_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
     </element>
 </database>
