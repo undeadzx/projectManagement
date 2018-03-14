@@ -4,17 +4,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_203779_gcs_pm_sprint" element="NULL" name="x_203779_gcs_pm_sprint" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45eeb4f10fb013008e970cbce1050e0a</list_id>
+            <list_id display_value="x_203779_gcs_pm_sprint" element="NULL" name="x_203779_gcs_pm_sprint" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca22f4de0fb413008e970cbce1050ec6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-12 20:16:14</sys_created_on>
-            <sys_id>c9eeb4f10fb013008e970cbce1050e0a</sys_id>
+            <sys_created_on>2018-03-14 08:37:33</sys_created_on>
+            <sys_id>4222f4de0fb413008e970cbce1050ec7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-12 20:16:14</sys_updated_on>
+            <sys_updated_on>2018-03-14 08:37:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_203779_gcs_pm_sprint" element="NULL" name="x_203779_gcs_pm_sprint" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca22f4de0fb413008e970cbce1050ec6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 08:37:33</sys_created_on>
+            <sys_id>c222f4de0fb413008e970cbce1050ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 08:37:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hours_completed</element>
+            <list_id display_value="x_203779_gcs_pm_sprint" element="NULL" name="x_203779_gcs_pm_sprint" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca22f4de0fb413008e970cbce1050ec6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 08:37:33</sys_created_on>
+            <sys_id>4622f4de0fb413008e970cbce1050ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 08:37:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_hours</element>
+            <list_id display_value="x_203779_gcs_pm_sprint" element="NULL" name="x_203779_gcs_pm_sprint" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca22f4de0fb413008e970cbce1050ec6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 08:37:33</sys_created_on>
+            <sys_id>c622f4de0fb413008e970cbce1050ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 08:37:33</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -28,10 +73,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-12 20:16:14</sys_created_on>
+            <sys_created_on>2018-03-14 08:37:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>45eeb4f10fb013008e970cbce1050e0a</sys_id>
+            <sys_id>ca22f4de0fb413008e970cbce1050ec6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_203779_gcs_pm_sprint</sys_name>
             <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
@@ -39,7 +84,7 @@
             <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
             <sys_update_name>sys_ui_list_x_203779_gcs_pm_sprint_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-12 20:16:14</sys_updated_on>
+            <sys_updated_on>2018-03-14 08:37:33</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
