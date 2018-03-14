@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Story" max_length="40" name="x_203779_gcs_pm_story" type="collection">
+    <element audit="true" extends="task" label="Story" max_length="40" name="x_203779_gcs_pm_story" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Acceptance Criteria" max_length="1000" name="acceptance_criteria" type="string"/>
         <element label="Customer Tester" max_length="32" name="customer_tester" reference="sys_user" reference_qual="roles=x_203779_gcs_pm.story_user^EQ" reference_qual_condition="roles=x_203779_gcs_pm.story_user^EQ" type="reference"/>
         <element label="Estimated Effort" max_length="40" name="estimated_effort" type="integer"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>create_story_defect</action_name>
+        <action_name>create_story_enhancement</action_name>
         <active>true</active>
         <client>false</client>
         <comments/>
@@ -20,17 +20,17 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Create Story Defect</name>
+        <name>Create Story Enhancement</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[var gr = new GlideRecord('x_203779_gcs_pm_story');
 gr.initialize();
 gr.setValue('parent',current.sys_id);
 gr.setValue('theme',current.theme);
-gr.setValue('type','defect');
+gr.setValue('type','enhancement');
 gr.insert();
 
-gs.addInfoMessage(gs.getMessage("Defect {0} created", gr.number));
+gs.addInfoMessage(gs.getMessage("Enhancement {0} created", gr.number));
 action.setRedirectURL(gr);
 action.setReturnURL(current);]]></script>
         <show_insert>true</show_insert>
@@ -39,19 +39,19 @@ action.setReturnURL(current);]]></script>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-12 21:00:17</sys_created_on>
+        <sys_created_on>2018-03-14 04:51:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>fe6701790fb013008e970cbce1050e8c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Create Story Defect</sys_name>
+        <sys_id>187e3b020f7413008e970cbce1050efc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create Story Enhancement</sys_name>
         <sys_overrides/>
         <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
         <sys_policy>protected</sys_policy>
         <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
-        <sys_update_name>sys_ui_action_fe6701790fb013008e970cbce1050e8c</sys_update_name>
+        <sys_update_name>sys_ui_action_187e3b020f7413008e970cbce1050efc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-14 05:20:30</sys_updated_on>
+        <sys_updated_on>2018-03-14 05:20:46</sys_updated_on>
         <table>x_203779_gcs_pm_story</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
