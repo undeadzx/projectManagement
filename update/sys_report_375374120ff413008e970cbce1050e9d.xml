@@ -68,7 +68,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles/>
+        <roles>snc_internal</roles>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -76,7 +76,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>one_color</set_color>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -95,20 +95,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-14 08:42:52</sys_created_on>
         <sys_id>375374120ff413008e970cbce1050e9d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Stories by State</sys_name>
         <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
         <sys_policy/>
         <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
         <sys_update_name>sys_report_375374120ff413008e970cbce1050e9d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-14 08:42:52</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-21 17:21:29</sys_updated_on>
         <table>x_203779_gcs_pm_story</table>
         <title>Stories by State</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field/>
+        <trend_field>sprint</trend_field>
         <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>

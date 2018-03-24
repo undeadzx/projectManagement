@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-21 21:44:25</sys_created_on>
+        <sys_id>ac69a3640f8953008e970cbce1050e60</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_203779_gcs_pm_status_report.x_203779_gcs_pm.organizer</sys_name>
+        <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+        <sys_security_acl display_value="x_203779_gcs_pm_status_report">6869a3640f8953008e970cbce1050e5c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ac69a3640f8953008e970cbce1050e60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-21 22:24:09</sys_updated_on>
+        <sys_user_role display_value="x_203779_gcs_pm.organizer" name="x_203779_gcs_pm.organizer">a87524750f7013008e970cbce1050ecf</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

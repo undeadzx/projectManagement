@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>overall_status</element>
+        <name>x_203779_gcs_pm_status_report</name>
+        <style>background-color:yellow</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-21 22:37:01</sys_created_on>
+        <sys_id>5765ff2c0f8953008e970cbce1050e6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_203779_gcs_pm_status_report</sys_name>
+        <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+        <sys_update_name>sys_ui_style_5765ff2c0f8953008e970cbce1050e6f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-21 22:37:01</sys_updated_on>
+        <value>yellow</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=5765ff2c0f8953008e970cbce1050e6f"/>
+</record_update>
