@@ -7,13 +7,13 @@
         <licensable>true</licensable>
         <license_model>none</license_model>
         <logo/>
-        <menu/>
+        <menu display_value="GCS Implementation Management">672658390f3013008e970cbce1050e9e</menu>
         <name>GCS Project Management</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_203779_gcs_pm</scope>
-        <scoped_administration>false</scoped_administration>
+        <scoped_administration>true</scoped_administration>
         <short_description/>
         <source>x_203779_gcs_pm</source>
         <store_correlation_id/>
@@ -23,12 +23,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-12 02:06:59</sys_created_on>
         <sys_id>099589610f3013008e970cbce1050efc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-12 02:06:59</sys_updated_on>
+        <sys_updated_on>2018-04-06 16:09:28</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role/>
+        <user_role display_value="x_203779_gcs_pm.story_user" name="x_203779_gcs_pm.story_user">e72698310f3013008e970cbce1050eba</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>
