@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>estimated_effort</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-13 02:19:40</sys_created_on>
+        <sys_id>754bf5f70fd113008e970cbce1050e9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>estimated_effort</sys_name>
+        <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_754bf5f70fd113008e970cbce1050e9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-13 02:19:40</sys_updated_on>
+        <table>x_203779_gcs_pm_story</table>
+        <ui_policy display_value="Fields required on Ready">1a4ce85a0fb413008e970cbce1050eca</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

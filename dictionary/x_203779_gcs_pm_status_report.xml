@@ -20,6 +20,7 @@
                 <element label="Red" sequence="2" value="red"/>
             </choice>
         </element>
+        <element label="Week Start" mandatory="true" max_length="40" name="week_start" type="glide_date"/>
         <index name="index">
             <element name="project"/>
         </index>

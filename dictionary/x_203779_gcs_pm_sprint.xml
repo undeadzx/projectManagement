@@ -2,11 +2,11 @@
 <database>
     <element label="Sprint" max_length="40" name="x_203779_gcs_pm_sprint" type="collection">
         <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
-        <element label="Hours Completed" max_length="40" name="hours_completed" type="integer"/>
+        <element default="0" label="Hours Completed" max_length="40" name="hours_completed" type="integer"/>
         <element display="true" label="Name" max_length="80" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="field_decorations=rollup_calc_field_decoration" label="Percent Complete" max_length="20" name="percent_complete" type="percent_complete"/>
-        <element label="Release" max_length="32" name="release" reference="x_203779_gcs_pm_release" type="reference"/>
+        <element label="Release" max_length="32" name="release" reference="x_203779_gcs_pm_release" reference_floats="true" type="reference"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
         <element label="Theme" max_length="32" name="theme" reference="x_203779_gcs_pm_theme" type="reference"/>
         <element label="Total Hours" max_length="40" name="total_hours" type="integer"/>

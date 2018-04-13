@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>weekly_status</field>
+        <global>true</global>
+        <messages/>
+        <name>Weekly Status Color</name>
+        <order/>
+        <script><![CDATA[function setStyle(response, control) {
+	
+	var style = response.responseXML.documentElement.getAttribute("answer");
+	control.style = style;
+}
+
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	
+	var tableName = g_form.getTableName();
+	// Change the background color based on status field.
+	var ajax = new GlideAjax('x_203779_gcs_pm.GCSImplementationStatusColorHelper');
+	ajax.addParam('sysparm_name', 'setStatusColor');
+	ajax.addParam('sysparm_value', newValue);
+	ajax.addParam('sysparm_table_name', tableName);
+	ajax.addParam('sysparm_field_name', 'weekly_status');
+	ajax.getXML(function(response) {
+		setStyle(response, control);
+	});
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-13 00:18:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae9fd5ff0f5113008e970cbce1050e4b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Weekly Status Color</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+        <sys_update_name>sys_script_client_ae9fd5ff0f5113008e970cbce1050e4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-13 00:53:52</sys_updated_on>
+        <table>x_203779_gcs_pm_status_report</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

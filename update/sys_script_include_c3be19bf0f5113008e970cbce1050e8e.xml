@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_203779_gcs_pm.GCSImplementationStatusColorHelper</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GCSImplementationStatusColorHelper</name>
+        <script><![CDATA[var GCSImplementationStatusColorHelper = Class.create();
+GCSImplementationStatusColorHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	setStatusColor: function() {
+		var value = this.getParameter("sysparm_value");
+		var tableName = this.getParameter("sysparm_table_name");
+		var fieldName = this.getParameter("sysparm_field_name");
+		var style = "";
+		// Choose the color based on incoming value
+		var uiStylesGRecord = new GlideRecord('sys_ui_style');
+		uiStylesGRecord.addQuery('name', tableName);
+		uiStylesGRecord.addQuery('element', fieldName);
+		uiStylesGRecord.addQuery('value', value);
+		uiStylesGRecord.orderByDesc('sys_updated_on');
+		uiStylesGRecord.setLimit(1);
+		uiStylesGRecord.query();
+		
+		if(uiStylesGRecord.getRowCount() > 0) {
+			while(uiStylesGRecord.next()) {
+				style = uiStylesGRecord.style;
+			}
+			
+		} else {
+			if(value == "red")
+				style = "background-color: tomato";
+			else if(value == "yellow")
+				style = "background-color: yellow";
+			else if(value == "green")
+				style = "background-color: lightgreen";
+		}
+		
+		return style;
+	},
+	
+//	type: 'GCSImplementationStatusColorHelper'
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-13 00:15:26</sys_created_on>
+        <sys_id>c3be19bf0f5113008e970cbce1050e8e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>GCSImplementationStatusColorHelper</sys_name>
+        <sys_package display_value="GCS Project Management" source="x_203779_gcs_pm">099589610f3013008e970cbce1050efc</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="GCS Project Management">099589610f3013008e970cbce1050efc</sys_scope>
+        <sys_update_name>sys_script_include_c3be19bf0f5113008e970cbce1050e8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-13 00:53:12</sys_updated_on>
+    </sys_script_include>
+</record_update>
